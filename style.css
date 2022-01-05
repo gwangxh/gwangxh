@@ -16,6 +16,9 @@ h1 {
   /* font-weight: 400; */
   margin-bottom: 50px;
 }
+h2 {
+  text-align: center;
+}
 p {
   overflow: hidden;
   max-width: 75ch;
