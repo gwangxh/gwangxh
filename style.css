@@ -42,46 +42,15 @@ a {
 blockquote {
   text-align: center;
 }
-div.newsletter, div.note {
-  width: 600px;
-  margin: 50px auto;
-  background: #F7F7F7;
-  padding: 1em;
+.box-parent{
+  text-align: center;
+  margin: 10px;
 }
-div.newsletter h2 {
-  margin: 0;
-  color: #B45141;
-}
-div.newsletter form p {
-  font-size: 10pt;
-}
-
-input[type=email] {
-  background-color: 0 0;
-  border: 1px solid #CED3D9;
-  border-radius: 4px;
-  display: block;
-  padding: 0.75em 1em;
-  width: 100%;
-  margin-bottom: 1em;
-  box-sizing: border-box;
-  font-size: 16px;
-  line-height: 1.4em;
-  font-family: "Noto Serif", serif;
-}
-input[type=submit] {
-  display: block;
-  width: 100%;
-  background: #B45141;
-  border: 0;
-  border-radius: 0.25em;
-  color: #fff;
-  outline: 0;
-  padding: 0.75em 1em;
-  width: 100%;
-  font-size: 16px;
-  box-sizing: border-box;
-  cursor: pointer;
-  margin-bottom: 0.5em;
-  font-family: "Noto Serif", serif;
+.box{
+  display: inline-block;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 150px;
+  padding: 10px; 
 }
